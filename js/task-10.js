@@ -18,8 +18,7 @@ function onCreateBoxes(event) {
   }
 }
 function onDestroyBoxes(event) {
-  //   console.log("hi");
-  //   while (refs.boxes.children.length <= !0) {}
+  refs.boxes.innerHTML = ``;
 }
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
